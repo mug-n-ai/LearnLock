@@ -2,9 +2,9 @@
 :root {
     --bg-color: #FDF5E6;
     --text-color: #2B2B2B;
-    --header-bg: rgba(255, 255, 255, 0.95);
+    --header-bg: #FAF3E0;
     --footer-bg: #2B2B2B;
-    --footer-text: white;
+    --footer-text: #FDF5E6;
     --container-width: 1100px;
 }
 
@@ -25,15 +25,39 @@ body {
     padding: 40px 20px;
 }
 
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #4285F4;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button .material-icons {
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.material-icons {
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+
 /* Header Styles: Ensure Flexbox works properly */
 .site-header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--header-bg);
     backdrop-filter: blur(8px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--text-color);
     display: flex;
     align-items: center;
     padding: 15px 40px;
@@ -149,6 +173,96 @@ body {
     justify-content: space-between;
 }
 
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+}
+
+/* Individual Testimonial Card */
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Star Ratings */
+.testimonial-card p:first-child {
+    font-size: 1.2rem;
+    color: #FFD700; /* Gold color for stars */
+}
+
+/* Testimonial Text */
+.testimonial-card p {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+/* Star Ratings - Improve visual consistency */
+.testimonial-stars .star {
+    font-size: 18px;
+    color: #FFD700; /* Gold color */
+    transition: transform 0.3s ease;
+}
+
+/* Empty Star */
+.testimonial-stars .star-empty {
+    font-size: 18px;
+    color: #ccc; /* Light gray to blend with design */
+    transition: transform 0.3s ease;
+}
+/* Individual Star */
+.testimonial-stars span {
+    font-size: 18px;
+    color: #FFD700; /* Gold color */
+    transition: transform 0.3s ease;
+}
+
+/* Optional: Add slight hover effect */
+.testimonial-stars span:hover {
+    transform: scale(1.1);
+}
+
+/* Half-filled Star Effect */
+.testimonial-stars span.half {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    overflow: hidden;
+}
+
+.testimonial-stars span.half::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: #FFD700;
+}
+
+.testimonial-name {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #555;
+    margin-top: 8px;
+    font-style: italic;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .nav-right {
@@ -183,5 +297,13 @@ body {
     .footer-top {
         flex-direction: column;
         text-align: center;
+    }
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        max-width: 90%;
     }
 }
