@@ -1,0 +1,77 @@
+---
+---
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+
+    <!-- Load main stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <!-- Load custom stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+    
+    <!-- Modern Material Navbar -->
+    <header class="site-header">
+        <div class="container">
+            <div class="nav-left">
+              <a class="site-logo" href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}">
+              </a>
+            </div>
+            <nav class="nav-right">
+              <ul class="nav-links">
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/custom_dictionaries' | relative_url }}">Custom Dictionaries</a></li>
+                <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+              </ul>
+            </nav>
+            <button class="menu-toggle"><i class="material-icons">menu</i></button>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="content-wrapper">
+      {{ content }}
+      {% include after-content.html %}
+    </main>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <!-- Modern Material Footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+          <nav class="footer-links">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/custom_dictionaries' | relative_url }}">Custom Dictionaries</a>
+            <a href="{{ '/about' | relative_url }}">About</a>
+            <a href="{{ '/contact' | relative_url }}">Contact</a>
+          </nav>
+        </div>
+      </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+      document.querySelector(".menu-toggle").addEventListener("click", function() {
+        document.querySelector(".nav-links").classList.toggle("open");
+      });
+    </script>
+
+    {% include scripts.html %}
+  </body>
+</html>
