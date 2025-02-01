@@ -18,7 +18,7 @@ LearnLock is available for Android devices. Download it now and start expanding 
 <div class="cta-container">
   <a href="PLACEHOLDER_FOR_GOOGLE_PLAY_LINK" class="cta-button">
     <img src="assets/images/play-store.webp" alt="Play Store Icon" style="width: 24px; vertical-align: middle; margin-right: 8px;">
-    Download on Google Play
+    Download on Google Play Store
   </a>
   <div class="qr-code">
     <img src="PLACEHOLDER_FOR_QR_CODE_IMAGE" alt="QR Code">
@@ -30,13 +30,39 @@ LearnLock is available for Android devices. Download it now and start expanding 
 
 ## 🌟 Why Choose LearnLock?
 
-| 🔀 **Randomized Learning** | 🎨 **Fully Customizable** | 📊 **Track Your Progress** |
-|---------------------------|------------------------|--------------------------|
-| Get a new flashcard every time you unlock your phone! | Choose fonts, colors, and themes to match your style. | Save and revisit key concepts anytime. |
+<div class="features-container">
+  <div class="feature-card">
+    <span class="feature-icon">🔀</span>
+    <h3>Randomized Learning</h3>
+    <p>Get a new flashcard every time you unlock your phone!</p>
+  </div>
+  <div class="feature-card">
+    <span class="feature-icon">🎨</span>
+    <h3>Fully Customizable</h3>
+    <p>Choose fonts, colors, and themes to match your style.</p>
+  </div>
+  <div class="feature-card">
+    <span class="feature-icon">📊</span>
+    <h3>Track Your Progress</h3>
+    <p>Save and revisit key concepts anytime.</p>
+  </div>
+  <div class="feature-card">
+    <span class="feature-icon">📥</span>
+    <h3>Create Your Own Flashcards</h3>
+    <p>Upload custom decks in JSON format for <strong>any topic</strong>.</p>
+  </div>
+  <div class="feature-card">
+    <span class="feature-icon">⚡</span>
+    <h3>Battery Efficient</h3>
+    <p>Lightweight & optimized – no impact on performance.</p>
+  </div>
+  <div class="feature-card">
+    <span class="feature-icon">🎓</span>
+    <h3>Perfect for Any Subject</h3>
+    <p>Use it for <strong>languages, history, science, exams, and more!</strong></p>
+  </div>
+</div>
 
-| 📥 **Create Your Own Flashcards** | ⚡ **Battery Efficient** | 🎓 **Perfect for Any Subject** |
-|---------------------------------|------------------------|--------------------------|
-| Upload custom decks in JSON format for **any topic**. | Lightweight & optimized – no impact on performance. | Use it for **languages, history, science, exams, and more!** |
 
 ---
 
@@ -51,11 +77,23 @@ LearnLock is available for Android devices. Download it now and start expanding 
 
 ## 📸 How LearnLock Looks
 
-<div class="screenshots">
-  <img src="PLACEHOLDER_FOR_SCREENSHOT_1" alt="Screenshot 1">
-  <img src="PLACEHOLDER_FOR_SCREENSHOT_2" alt="Screenshot 2">
-  <img src="PLACEHOLDER_FOR_SCREENSHOT_3" alt="Screenshot 3">
-  <img src="PLACEHOLDER_FOR_SCREENSHOT_4" alt="Screenshot 4">
+<div class="screenshots-container">
+  <div class="screenshot-card">
+    <img src="assets/images/home_screen.png" alt="Home Screen">
+    <p class="screenshot-caption">🔒 Turn your lock screen into a smart learning hub</p>
+  </div>
+  <div class="screenshot-card">
+    <img src="assets/images/saved_screen.png" alt="Saved Cards Screen">
+    <p class="screenshot-caption">💾 Save and review your favorite cards</p>
+  </div>
+  <div class="screenshot-card">
+    <img src="assets/images/custom_screen.png" alt="Customization Screen">
+    <p class="screenshot-caption">🎨 Customize your theme and colors</p>
+  </div>
+  <div class="screenshot-card">
+    <img src="assets/images/sources_home.png" alt="Sources Screen">
+    <p class="screenshot-caption">📚 Create and import custom learning decks</p>
+  </div>
 </div>
 
 ---

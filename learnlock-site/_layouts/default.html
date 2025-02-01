@@ -8,6 +8,16 @@
     {% include head.html %}
     {% include head/custom.html %}
 
+      <!-- Standard favicon -->
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+
+  <!-- Apple Touch Icon (for iPhones/iPads) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+
+  <!-- High-resolution favicon -->
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+
     <!-- Load main stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 

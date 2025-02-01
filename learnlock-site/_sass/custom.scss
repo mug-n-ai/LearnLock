@@ -3,7 +3,10 @@
     --bg-color: #FDF5E6;
     --text-color: #2B2B2B;
     --header-bg: #FAF3E0;
+    --cards-bg: #F9F9F9;
     --footer-bg: #2B2B2B;
+    --smother-ink: #555;
+    --darker-ink:#1A1A1A
     --footer-text: #FDF5E6;
     --container-width: 1100px;
 }
@@ -183,7 +186,7 @@ body {
 
 /* Individual Testimonial Card */
 .testimonial-card {
-    background: white;
+    background: var(--cards-bg);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -210,7 +213,7 @@ body {
 /* Testimonial Text */
 .testimonial-card p {
     font-size: 0.95rem;
-    color: #333;
+    color: var(--text-color);
 }
 
 /* Star Ratings - Improve visual consistency */
@@ -258,10 +261,72 @@ body {
 .testimonial-name {
     font-size: 0.85rem;
     font-weight: bold;
-    color: #555;
+    color: var(--smother-ink);
     margin-top: 8px;
     font-style: italic;
 }
+
+.screenshots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.screenshot-card {
+    background: var(--cards-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.screenshot-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.screenshot-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.screenshot-caption {
+    font-size: 0.95rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 /* Mobile Styles */
 @media (max-width: 768px) {
