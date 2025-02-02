@@ -6,6 +6,7 @@ title: Home
 ![App Icon](assets/images/logo.png)
 
 # 🚀 Transform Your Lock Screen into a Learning Hub! 🔒📚  
+
 ✨ **Learn smarter, not harder** – every unlock is a new opportunity to grow.  
 🎯 **Your knowledge, one card at a time.**
 
@@ -91,7 +92,7 @@ LearnLock is available for Android devices. Download it now and start expanding 
     <p class="screenshot-caption">🎨 Customize your theme and colors</p>
   </div>
   <div class="screenshot-card">
-    <img src="assets/images/sources_home.png" alt="Sources Screen">
+    <img src="assets/images/sources_screen.png" alt="Sources Screen">
     <p class="screenshot-caption">📚 Create and import custom learning decks</p>
   </div>
 </div>
