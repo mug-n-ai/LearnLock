@@ -3,7 +3,7 @@ name: Deploy Jekyll Site
 on:
   push:
     branches:
-      - main  
+      - main  # Adjust if using a different branch
   pull_request:
     branches:
       - main
@@ -20,10 +20,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
-          bundler-cache: true  
-          
+          bundler-cache: true  # Caches gems for faster builds
+
       - name: 📦 Install Dependencies
         run: |
+          gem install bundler -v 2.6.3
           cd docs
           bundle install
           bundle exec jekyll build --source . --destination _site
