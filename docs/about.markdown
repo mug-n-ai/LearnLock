@@ -50,8 +50,8 @@ LearnLock was developed by **Lorenzo Mugnai**, an **astrophysicist and researche
 
 Lorenzo also maintains **other open-source projects** focused on automation, learning tools, and productivity enhancements.
 
----
+<!-- ---
 
 ## **📥 Get Started Today!**  
 
-🔹 **Ready to supercharge your learning?** [Download LearnLock](PLACEHOLDER_FOR_GOOGLE_PLAY_LINK) now! 🚀
+🔹 **Ready to supercharge your learning?** [Download LearnLock](PLACEHOLDER_FOR_GOOGLE_PLAY_LINK) now! 🚀 -->

@@ -33,7 +33,7 @@ If you prefer, you can send us a message directly from this page.
 </form>
 
 
----
+<!-- ---
 
 ## 🔗 Follow Us  
 
@@ -42,4 +42,4 @@ If you prefer, you can send us a message directly from this page.
 - 🐦 **Twitter:** [@LearnLock](PLACEHOLDER_FOR_TWITTER)  
 - 📸 **Instagram:** [@LearnLock](PLACEHOLDER_FOR_INSTAGRAM)  
 - 💼 **LinkedIn:** [LearnLock](PLACEHOLDER_FOR_LINKEDIN)  
-
+ -->
