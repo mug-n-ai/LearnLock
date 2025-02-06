@@ -40,6 +40,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-remote-theme
+  - jekyll-sitemap
+
 
 
 markdown: kramdown

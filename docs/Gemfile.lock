@@ -208,6 +208,7 @@ DEPENDENCIES
   jekyll-archives (~> 2.3)
   jekyll-feed (~> 0.12)
   jekyll-remote-theme
+  jekyll-sitemap
   minima (~> 2.5)
   minimal-mistakes-jekyll
   tzinfo (>= 1, < 3)
