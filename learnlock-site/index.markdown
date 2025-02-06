@@ -10,7 +10,7 @@ title: Home
 ✨ **Learn smarter, not harder** – every unlock is a new opportunity to grow.  
 🎯 **Your knowledge, one card at a time.**
 
----
+<!-- ---
 
 ## 📥 Download LearnLock
 
@@ -25,7 +25,7 @@ LearnLock is available for Android devices. Download it now and start expanding 
     <img src="PLACEHOLDER_FOR_QR_CODE_IMAGE" alt="QR Code">
     <p><strong>Scan to download</strong></p>
   </div>
-</div>
+</div> -->
 
 ---
 
