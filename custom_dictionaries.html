@@ -1,0 +1,298 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Custom Dictionaries - LearnLock</title>
+<meta name="description" content="Learn new words directly from your lock screen">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="LearnLock">
+<meta property="og:title" content="Custom Dictionaries">
+<meta property="og:url" content="https://mug-n-ai.github.io/LearnLock/custom_dictionaries.html">
+
+
+  <meta property="og:description" content="Learn new words directly from your lock screen">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://mug-n-ai.github.io/LearnLock/custom_dictionaries.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/LearnLock/feed.xml" type="application/atom+xml" rel="alternate" title="LearnLock Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/LearnLock/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+      <!-- Standard favicon -->
+  <link rel="icon" type="image/png" href="/LearnLock/assets/images/favicon.ico">
+
+  <!-- Apple Touch Icon (for iPhones/iPads) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/LearnLock/assets/images/apple-touch-icon.png">
+
+  <!-- High-resolution favicon -->
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="/LearnLock/assets/images/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="/LearnLock/assets/images/favicon-16x16.png">
+
+    <!-- Load main stylesheet -->
+    <link rel="stylesheet" href="/LearnLock/assets/css/main.css">
+
+    <!-- Load custom stylesheet -->
+    <link rel="stylesheet" href="/LearnLock/assets/css/custom.css">
+    
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body class="layout--default" dir="ltr">
+    
+    <!-- Modern Material Navbar -->
+    <header class="site-header">
+        <div class="container">
+            <div class="nav-left">
+              <a class="site-logo" href="/LearnLock/">
+                <img src="/LearnLock/assets/images/logo.png" alt="LearnLock">
+              </a>
+            </div>
+            <nav class="nav-right">
+              <ul class="nav-links">
+                <li><a href="/LearnLock/">Home</a></li>
+                <li><a href="/LearnLock/custom_dictionaries">Custom Dictionaries</a></li>
+                <li><a href="/LearnLock/about">About</a></li>
+                <li><a href="/LearnLock/contact">Contact</a></li>
+                <li><a href="/LearnLock/privacy_policy">Privacy Policy</a></li>
+              </ul>
+            </nav>
+            <button class="menu-toggle"><i class="material-icons">menu</i></button>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="content-wrapper">
+      <h1 id="-how-to-create-a-card-decks-for-learnlock">📝 How to Create a Card Decks for LearnLock</h1>
+
+<h2 id="-step-1-understand-the-jsonl-format">📌 Step 1: Understand the JSONL Format</h2>
+
+<p>A custom Card Deck in LearnLock is a <strong>JSONL file</strong> where each flashcard follows a <strong>specific structure</strong>. Here’s the required format:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Newton’s Laws"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Physics"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Newton's first law states that an object in motion stays in motion unless acted upon by an external force."</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"extra"</span><span class="p">:</span><span class="w"> </span><span class="s2">"F = ma"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="-explanation-of-each-field">💡 Explanation of Each Field</h3>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Field</th>
+        <th>Description</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>title</code></td>
+        <td>The main topic or term of the flashcard</td>
+        <td><code>"Newton’s Laws"</code></td>
+      </tr>
+      <tr>
+        <td><code>category</code></td>
+        <td>The general topic area (Optional)</td>
+        <td><code>"Physics"</code>, <code>"History"</code>, <code>"Vocabulary"</code></td>
+      </tr>
+      <tr>
+        <td><code>content</code></td>
+        <td>The main learning material (definition, explanation, or key information)</td>
+        <td><code>"An object in motion stays in motion unless acted upon."</code></td>
+      </tr>
+      <tr>
+        <td><code>extra</code></td>
+        <td>Additional optional information like <strong>formulas, dates, pronunciations</strong></td>
+        <td><code>"F = ma"</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>📌 <strong>Note:</strong> Each card must follow this structure to be recognized by LearnLock.</p>
+
+<hr />
+
+<h2 id="-step-2-create-your-jsonl-file">📌 Step 2: Create Your JSONL File</h2>
+
+<p>You can use any <strong>text editor</strong> to create your custom card deck.</p>
+
+<h3 id="-example-for-vocabulary-learning">💡 Example for Vocabulary Learning</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Swop"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Dance"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A fusion of swing and hip-hop dance styles."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/swɑp/"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Abacist"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Mathematics"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"One who uses an abacus in casting accounts; a calculator."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/ˈæb.ə.sɪst/"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="-example-for-science-concepts">💡 Example for Science Concepts</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Newton’s Laws"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Physics"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Newton's first law states that an object in motion stays in motion unless acted upon by an external force."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra"</span><span class="p">:</span><span class="w"> </span><span class="s2">"F = ma"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DNA Replication"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Biology"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The process of producing two identical replicas from one original DNA molecule."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Occurs in the S-phase of the cell cycle."</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="-step-3-save-and-import-your-custom-card-deck">📌 Step 3: Save and Import Your Custom Card Deck</h2>
+
+<ol>
+  <li><strong>Save the file as <code class="language-plaintext highlighter-rouge">.jsonl</code></strong>
+    <ul>
+      <li>Example: <code class="language-plaintext highlighter-rouge">my_deck.jsonl</code></li>
+    </ul>
+  </li>
+  <li><strong>Transfer the file to your phone</strong>
+    <ul>
+      <li>You can use <strong>Google Drive, Dropbox, or a direct USB connection</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Open LearnLock and Import the Card Deck</strong>
+    <ul>
+      <li>Navigate to <strong>Manage Sources</strong> → <strong>Add Source</strong></li>
+      <li>Select your <strong>JSONL file</strong></li>
+    </ul>
+  </li>
+  <li><strong>Start Learning!</strong>
+    <ul>
+      <li>Your new flashcards will now appear <strong>every time you unlock your phone</strong>. 🚀</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-troubleshooting--common-issues">📌 Troubleshooting &amp; Common Issues</h2>
+
+<p><strong>🟢 LearnLock isn’t detecting my file</strong><br />
+✅ Ensure your file <strong>uses valid JSON syntax</strong> and follows the correct <strong>structure</strong>.<br />
+✅ Check that the file <strong>ends in <code class="language-plaintext highlighter-rouge">.jsonl</code></strong>.</p>
+
+<hr />
+
+<h2 id="-get-started-with-your-custom-card-deck-today">📝 Get Started with Your Custom Card Deck Today!</h2>
+
+<p>🚀 <strong>Try creating your own Card Deck now and personalize your learning experience with LearnLock!</strong></p>
+
+<p>📩 <strong>Need help? Contact us at:</strong> <a href="mailto:mug.n.ai.dev@gmail.com">mug.n.ai.dev@gmail.com</a></p>
+
+
+      
+    </main>
+
+    
+
+    <!-- Modern Material Footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <p>&copy; 2025 LearnLock. All rights reserved.</p>
+          <nav class="footer-links">
+            <a href="/LearnLock/">Home</a>
+            <a href="/LearnLock/custom_dictionaries">Custom Dictionaries</a>
+            <a href="/LearnLock/about">About</a>
+            <a href="/LearnLock/contact">Contact</a>
+          </nav>
+        </div>
+      </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+      document.querySelector(".menu-toggle").addEventListener("click", function() {
+        document.querySelector(".nav-links").classList.toggle("open");
+      });
+    </script>
+
+    
+  <script src="/LearnLock/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
