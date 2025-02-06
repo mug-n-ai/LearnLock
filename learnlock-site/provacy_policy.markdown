@@ -34,7 +34,7 @@ All data used by LearnLock is **stored locally on your device** and never transm
     </thead>
     <tbody>
       <tr>
-        <td><code>Custom Dictionaries</code></td>
+        <td><code>Custom Card Decks</code></td>
         <td>To display your flashcards on the lock screen</td>
         <td>✅ Yes</td>
       </tr>
@@ -85,8 +85,8 @@ LearnLock includes **Google AdMob ads** to support development.
 
 Since LearnLock **does not store data online**, you are in **full control** of everything on your device.  
 
-1. **Delete Custom Dictionaries**  
-   - Go to **Sources** → **Manage Dictionaries** → **Remove any dictionary you no longer need**.  
+1. **Delete Custom Card Decks**  
+   - Go to **Manage Sources** → **Remove Selected Sources** → **Remove any Card Deck you no longer need**.  
 
 2. **Reset LearnLock Preferences**  
    - Navigate to **Settings** → **Reset Preferences** to restore default settings.  

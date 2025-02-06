@@ -3,11 +3,11 @@ layout: default
 title: Custom Dictionaries
 ---
 
-# 📝 How to Create a Custom Dictionary for LearnLock  
+# 📝 How to Create a Card Decks for LearnLock  
 
 ## 📌 Step 1: Understand the JSONL Format  
 
-A custom dictionary in LearnLock is a **JSONL file** where each flashcard follows a **specific structure**. Here’s the required format:
+A custom Card Deck in LearnLock is a **JSONL file** where each flashcard follows a **specific structure**. Here’s the required format:
 
 ```json
 {
@@ -60,7 +60,7 @@ A custom dictionary in LearnLock is a **JSONL file** where each flashcard follow
 
 ## 📌 Step 2: Create Your JSONL File  
 
-You can use any **text editor** to create your custom dictionary.
+You can use any **text editor** to create your custom card deck.
 
 ### 💡 Example for Vocabulary Learning  
 
@@ -102,16 +102,16 @@ You can use any **text editor** to create your custom dictionary.
 
 ---
 
-## 📌 Step 3: Save and Import Your Custom Dictionary  
+## 📌 Step 3: Save and Import Your Custom Card Deck  
 
 1. **Save the file as `.jsonl`**  
-   - Example: `my_dictionary.jsonl`  
+   - Example: `my_deck.jsonl`  
 
 2. **Transfer the file to your phone**  
    - You can use **Google Drive, Dropbox, or a direct USB connection**.  
 
-3. **Open LearnLock and Import the Dictionary**  
-   - Navigate to **Sources** → **Import Dictionary**  
+3. **Open LearnLock and Import the Card Deck**  
+   - Navigate to **Manage Sources** → **Add Source**  
    - Select your **JSONL file**  
 
 4. **Start Learning!**  
@@ -127,9 +127,9 @@ You can use any **text editor** to create your custom dictionary.
 
 ---
 
-## 📝 Get Started with Your Custom Dictionary Today!  
+## 📝 Get Started with Your Custom Card Deck Today!  
 
-🚀 **Try creating your own dictionary now and personalize your learning experience with LearnLock!**  
+🚀 **Try creating your own Card Deck now and personalize your learning experience with LearnLock!**  
 
 📩 **Need help? Contact us at:** [mug.n.ai.dev@gmail.com](mailto:mug.n.ai.dev@gmail.com)
 
