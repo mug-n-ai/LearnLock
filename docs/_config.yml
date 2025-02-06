@@ -7,6 +7,8 @@ url: "https://mug-n-ai.github.io"
 github_username:  mug-n-ai
 
 
+destination: _site
+
 # Build settings
 # theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
