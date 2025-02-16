@@ -127,7 +127,7 @@ You can use any **text editor** to create your custom card deck.
 
 ---
 
-## Limitations & Best Practices
+## ⚠️ Limitations & Best Practices
 
 - **Keep the content concise** to ensure readability on the lock screen.
 - **Be careful with your math**: no MathJax or LaTeX support is available for formulas in the current version (coming soon).
