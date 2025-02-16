@@ -15,6 +15,11 @@ title: Home
 
 LearnLock is currently in _Closed Testing_. If you are interested in trying this new app and helping us improve it, please sign up for the beta via email in the [Contact Page]({{ site.baseurl }}/contact).
 
+  <a href="https://play.google.com/store/apps/details?id=org.mugnai.learnlock" class="cta-button">
+    <img src="assets/images/play-store.webp" alt="Play Store Icon" style="width: 24px; vertical-align: middle; margin-right: 8px;">
+    Download on Google Play Store
+  </a>
+
 
 <!-- ---
 
@@ -23,7 +28,7 @@ LearnLock is currently in _Closed Testing_. If you are interested in trying this
 LearnLock is available for Android devices. Download it now and start expanding your knowledge!
 
 <div class="cta-container">
-  <a href="PLACEHOLDER_FOR_GOOGLE_PLAY_LINK" class="cta-button">
+  <a href="https://play.google.com/store/apps/details?id=org.mugnai.learnlock" class="cta-button">
     <img src="assets/images/play-store.webp" alt="Play Store Icon" style="width: 24px; vertical-align: middle; margin-right: 8px;">
     Download on Google Play Store
   </a>
@@ -113,23 +118,23 @@ LearnLock is available for Android devices. Download it now and start expanding 
         <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
     </div>
     <p class="testimonial-text"><strong>“I retain words effortlessly.”</strong> This app has made learning so seamless!</p>
-    <span class="testimonial-name">User A</span>
+    <span class="testimonial-name">Emanuele C.</span>
     </div>
-    <div class="testimonial-card">
+    <!-- <div class="testimonial-card">
     <div class="testimonial-stars">
         <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star-empty">★</span>
     </div>      
     <p class="testimonial-text"><strong>“Perfect for last-minute revision!”</strong> I review my physics concepts just by unlocking my phone.</p>
         <span class="testimonial-name">User B</span>
-    </div>
+    </div> -->
     <div class="testimonial-card">
     <div class="testimonial-stars">
         <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
     </div>      
     <p class="testimonial-text"> <strong>“LearnLock keeps me engaged daily.”</strong> I now never forget key concepts!</p>
-        <span class="testimonial-name">User c</span>
+        <span class="testimonial-name">Camilla A.</span>
     </div>
-    <div class="testimonial-card">
+    <!-- <div class="testimonial-card">
       <div class="testimonial-stars">
         <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
     </div>
@@ -142,7 +147,7 @@ LearnLock is available for Android devices. Download it now and start expanding 
     </div>      
     <p class="testimonial-text"><strong>“Gamified learning is fun!”</strong> My study group loves using LearnLock for quizzes.</p>
         <span class="testimonial-name">User E</span>
-    </div>
+    </div> -->
 </div>
 
 ---
