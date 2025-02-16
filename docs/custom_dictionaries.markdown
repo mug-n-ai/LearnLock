@@ -127,9 +127,17 @@ You can use any **text editor** to create your custom card deck.
 
 ---
 
+## Limitations & Best Practices
+
+- **Keep the content concise** to ensure readability on the lock screen.
+- **Be careful with your math**: no MathJax or LaTeX support is available for formulas in the current version (coming soon).
+- **Avoid special characters** that may cause formatting issues as they are not supporting the in the current version (coming soon).
+- **Test your deck** by importing it and checking the flashcards on your lock screen.
+
+---
+
 ## 📝 Get Started with Your Custom Card Deck Today!  
 
 🚀 **Try creating your own Card Deck now and personalize your learning experience with LearnLock!**  
 
 📩 **Need help? Contact us at:** [mug.n.ai.dev@gmail.com](mailto:mug.n.ai.dev@gmail.com)
-

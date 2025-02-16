@@ -10,6 +10,12 @@ title: Home
 ✨ **Learn smarter, not harder** – every unlock is a new opportunity to grow.  
 🎯 **Your knowledge, one card at a time.**
 
+
+## 📥 Download LearnLock
+
+LearnLock is currently in _Closed Testing_. If you are interested in trying this new app and helping us improve it, please sign up for the beta via email in the [Contact Page]({{ site.baseurl }}/contact).
+
+
 <!-- ---
 
 ## 📥 Download LearnLock
@@ -146,7 +152,7 @@ LearnLock is available for Android devices. Download it now and start expanding 
 1. 📥 **Download & Install** LearnLock from the Google Play Store.
 2. 🔋 **Grant Battery Optimization Permission** – This ensures the app runs in the background without being suspended by the system, allowing the lock screen wallpaper to update consistently.
 3. 🔓 **Enable Lock Screen Wallpaper** – Go to LockScreen Customisation in the app and activate the wallpaper feature to start seeing flashcards on your lock screen.
-4. 📚 **Create or Import Custom Flashcards** – Add your own study materials in JSON format or use preloaded decks.
+4. 📚 **Create or Import Custom Flashcards** (Optional) – Add your own study materials in JSON format or use preloaded decks.
 5. 🚀 **Start Learning!** – Every time you unlock your phone, a new flashcard will appear to reinforce your knowledge.
 
 📌 **Tip**: If the wallpaper stops updating, go to **LockScreen Customisation**, disable the wallpaper toggle, then re-enable it. This refreshes the function and restores proper operation. 🚀
