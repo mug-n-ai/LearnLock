@@ -147,6 +147,10 @@ body {
     text-align: center;
 }
 
+.site-footer p {
+    color: inherit; 
+}
+
 .footer-links {
     display: flex;
     justify-content: center;
@@ -161,6 +165,10 @@ body {
 
 .footer-links a:hover {
     color: white;
+}
+
+.site-footer p {
+    color:  lightgray; /* Stesso colore dei link */
 }
 
 .footer-top {
