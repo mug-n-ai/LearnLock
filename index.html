@@ -318,6 +318,24 @@ LearnLock is available for Android devices. Download it now and start expanding 
       });
     </script>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navRight = document.querySelector(".nav-right");
+    
+        menuToggle.addEventListener("click", function(event) {
+          navRight.classList.toggle("open");
+          event.stopPropagation(); // Evita che il click si propaghi al body
+        });
+    
+        document.addEventListener("click", function(event) {
+          if (!menuToggle.contains(event.target) && !navRight.contains(event.target)) {
+            navRight.classList.remove("open");
+          }
+        });
+      });
+    </script>
+    
     
   <script src="/LearnLock/assets/js/main.min.js"></script>
 
