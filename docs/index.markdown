@@ -22,7 +22,7 @@ LearnLock is available for Android devices. Download it now and start expanding 
     Download on Google Play Store
   </a>
   <div class="qr-code">
-    <img src="assets/images/qr-code.png" alt="QR Code">
+  <img src="assets/images/qr-code.png" alt="QR Code" style="max-width: 120px; height: auto;">
     <p><strong>Scan to download</strong></p>
   </div>
 </div> 
