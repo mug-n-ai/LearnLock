@@ -11,17 +11,6 @@ title: Home
 🎯 **Your knowledge, one card at a time.**
 
 
-## 📥 Download LearnLock
-
-LearnLock is currently in _Closed Testing_. If you are interested in trying this new app and helping us improve it, please sign up for the beta via email in the [Contact Page]({{ site.baseurl }}/contact).
-
-  <a href="https://play.google.com/store/apps/details?id=org.mugnai.learnlock" class="cta-button">
-    <img src="assets/images/play-store.webp" alt="Play Store Icon" style="width: 24px; vertical-align: middle; margin-right: 8px;">
-    Download on Google Play Store
-  </a>
-
-
-<!-- ---
 
 ## 📥 Download LearnLock
 
@@ -33,10 +22,10 @@ LearnLock is available for Android devices. Download it now and start expanding 
     Download on Google Play Store
   </a>
   <div class="qr-code">
-    <img src="PLACEHOLDER_FOR_QR_CODE_IMAGE" alt="QR Code">
+    <img src="assets/images/qr-code.png" alt="QR Code">
     <p><strong>Scan to download</strong></p>
   </div>
-</div> -->
+</div> 
 
 ---
 
